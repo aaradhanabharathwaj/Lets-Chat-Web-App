@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Lets Chat Web App</title>
+        <link href="style.css" rel="stylesheet">
+        <script src="main.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    </head>
+    <body background="Background.svg">
+<br>
+    <button class="buttons" id="logout" onclick="logout()">Logout</button>
+    <center>
+		<h1 class="header">	
+	    <br>Kwitter<br>
+			<center><sup>
+				<img id="mail" src="Mail.png">
+			</sup>
+        </center>
+		</h1>
+		<div id="output"></div>
+        <div id="message_page" class="greeting">
+            <sup><img src="Message.png"></sup>
+            <h3>Your Message:</h3>
+            <br>
+            <input type="text" placeholder="     Enter your Message" class="inputs">
+            <br><br>
+            <button class="buttons" onclick="send()">Send</button>
+        </div>
+        </center>
+        </body>
+        </html>

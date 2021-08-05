@@ -1,0 +1,27 @@
+body{
+    font-family: 'Acme', sans-serif;  
+  color: white;
+}
+.inputs{
+    width: 500px;
+    height: 30px;
+    border-radius: 30px;
+    font-family: 'Acme', sans-serif;
+    border-color: rgb(255, 255, 255);
+}
+.buttons{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    font-family: 'Acme', sans-serif;
+    border-color: rgb(255, 255, 255);
+}
+.greeting{
+    background-color: brown;
+    padding: 30px;
+    width: 800px;
+    border-radius: 500px;
+}
+#logout{
+    float: right;
+}
